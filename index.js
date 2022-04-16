@@ -49,7 +49,7 @@ const promptUser = () => {
               message: "Please enter usage instructions, press enter to skip.."
             },
             {
-              type: 'checkbox',
+              type: 'list',
               name: 'license',
               message: "Please select which license you would like to use (select one)",
               choices: ['Apache 2.0 License', 'Boost Software License 1.0', 'BSD 3-Clause License', 'BSD 2-Clause License',
@@ -172,14 +172,7 @@ I:: VPAIMSSSSSSSSSBSSSMMBSSSBBMMMMXXI:MMHIMMI
     })
     .then(writeFileResponse => {
         console.log(writeFileResponse);
-        console.log(`
-        ███████╗██╗██╗     ███████╗     ██████╗██████╗ ███████╗ █████╗ ████████╗███████╗██████╗ ██╗
-        ██╔════╝██║██║     ██╔════╝    ██╔════╝██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██╔════╝██╔══██╗██║
-        █████╗  ██║██║     █████╗      ██║     ██████╔╝█████╗  ███████║   ██║   █████╗  ██║  ██║██║
-        ██╔══╝  ██║██║     ██╔══╝      ██║     ██╔══██╗██╔══╝  ██╔══██║   ██║   ██╔══╝  ██║  ██║╚═╝
-        ██║     ██║███████╗███████╗    ╚██████╗██║  ██║███████╗██║  ██║   ██║   ███████╗██████╔╝██╗
-        ╚═╝     ╚═╝╚══════╝╚══════╝     ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═════╝ ╚═╝ 
-        `);
+        console.log(``);
     })
     .catch(err => {
         console.log(err);
