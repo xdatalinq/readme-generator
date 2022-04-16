@@ -1,40 +1,46 @@
 // confirm function/page accessed
-const generateTest = () => {
-    console.log("file-template.js reached!")
-};
-
-// demo create section code
-const generateReadme = aboutText => {
-    if (!aboutText) {
-      return '';
-    }
+const generateTemplate = data => {
+    console.log("This is TEMPLATE step data: "+data)
+    return `# ${data}
   
-    return `
-    Markdown Example
-    ===============
+  `;
+  }
+
+module.exports = { generateTemplate };
+
+// // demo create section code
+// const generateReadme = aboutText => {
+//     if (!aboutText) {
+//       return '';
+//     }
+  
+//     return `
+//     Markdown Example
+//     ===============
     
-    This is the raw markdown used to generate the below web content.
+//     This is the raw markdown used to generate the below web content.
     
-    Bulleted List
-    -------------
+//     Bulleted List
+//     -------------
     
-    * Foo
-    * Bar
+//     * Foo
+//     * Bar
     
-    Numbered List
-    -------------
+//     Numbered List
+//     -------------
     
-    1. Foo
-    2. Bar
+//     1. Foo
+//     2. Bar
     
-    Formatting
-    ----------
+//     Formatting
+//     ----------
     
-    Can be **bold** or *italic*
+//     Can be **bold** or *italic*
     
-    Links
-    -----
+//     Links
+//     -----
     
-    Click [here](http://foo.com) to go somewhere.
-    `;
-  };
+//     Click [here](http://foo.com) to go somewhere.
+//     `;
+  
+// };
