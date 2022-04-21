@@ -35,11 +35,6 @@ const promptUser = () => {
             },
             {
               type: 'input',
-              name: 'tablecontents',
-              message: "Please enter table of contents, press enter to skip.."
-            },
-            {
-              type: 'input',
               name: 'instructions',
               message: "Please enter installation instructions, press enter to skip.."
             },
