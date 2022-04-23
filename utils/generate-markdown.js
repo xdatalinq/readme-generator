@@ -14,32 +14,35 @@ function renderLicenseSection(license) {}
 const generateMarkdown = data => {
   console.log("This is MARKDOWN step data: "+data.title)
   return `
-  Markdown Example
-  ===============
+  # README GENERATOR
+  // License here 
+  ## Description
+  Read me generator
+  ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)  
+  ## Installation
+  // List here
+   
+  ## Usage
+  // Usage notes
+    
+  ## License
+  This project is s licensed under...
   
-  This is the raw markdown used to generate the below web content.
+  ## Contributing
+  N/A
+    
+  ## Tests
+  Test info here
   
-  Bulleted List
-  -------------
-  
-  * Foo
-  * Bar
-  
-  Numbered List
-  -------------
-  
-  1. Foo
-  2. Bar
-  
-  Formatting
-  ----------
-  
-  Can be **bold** or *italic*
-  
-  Links
-  -----
-  
-  Click [here](http://foo.com) to go somewhere.
+  ## Questions
+  Insert questions here
   `;
 }
 
