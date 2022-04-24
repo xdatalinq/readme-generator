@@ -12,7 +12,7 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
-  console.log("This is MARKDOWN step data: "+data.title)
+  console.log("generateMarkdown called: "+data.title)
   return `
   # README GENERATOR
   // License here 
