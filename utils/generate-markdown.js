@@ -8,7 +8,24 @@ function renderLicenseLink(license) {}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+let renderLicenseSection = (license) => {
+  switch (license) {
+    case "Apache 2.0 License":
+      return `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`;
+    case "CC0 1.0 (Creative Commons)":
+      return `[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)`;
+    case "GNU GPL v3":
+      return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`;
+    case "MIT License":
+      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
+    case "Mozilla Public License 2.0":
+      return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`;
+    case "Public Domain Dedication and License (PDDL)":
+      return `[![License: ODbL](https://img.shields.io/badge/License-PDDL-brightgreen.svg)](https://opendatacommons.org/licenses/pddl/)`;
+    default:
+      return '';
+  }
+};
 
 // TODO: Create a function to generate markdown for README
 const generateMarkdown = data => {
@@ -27,39 +44,23 @@ const generateMarkdown = data => {
   * [Tests](#tests)
   * [Questions](#questions)  
   ## Installation
-  // List here
+  ${data.instructions}
    
   ## Usage
-  // Usage notes
+  ${data.usage}
     
   ## License
-  This project is s licensed under...
+  ${renderLicenseSection(data.license)}
   
   ## Contributing
-  N/A
+  ${data.contribution}
     
   ## Tests
-  Test info here
+  ${data.testing}
   
   ## Questions
-  Insert questions here
+  ${data.questions}
   `;
 }
 
 module.exports = generateMarkdown;
-// module.exports = templateData => {
-//   // destructure page data by section
-//   const { projects, about, ...header } = templateData;
-
-//   return `
-
-// Sections to look for in data:
-// title 
-// description
-// tablecontents
-// instructions
-// usage
-// license
-// contribution
-// testing
-// questions
