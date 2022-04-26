@@ -29,7 +29,7 @@ Repo: https://github.com/xdatalinq/readme-generator
   Please contact me with any ideas for contributions
     
   ## Tests
-  Try to brealk it, then try to fix it
+  Try to break it, then try to fix it
   
   ## Questions
-  For any questions, please send an email to [questions@email.com](mailto:questions@email.com)
+  For any questions, please send an email to [questions@email.com](mailto:questions@email.com) (not my actual email)
