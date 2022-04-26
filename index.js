@@ -62,8 +62,8 @@ const promptUser = () => {
             },
             {
               type: 'input',
-              name: 'questions',
-              message: "Please enter info for Questions section, press enter to skip.."
+              name: 'email',
+              message: "Please enter email for Questions section, press enter to skip.."
             }
         ])
     .then(readmeData => {
