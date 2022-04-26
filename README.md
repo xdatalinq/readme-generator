@@ -32,4 +32,4 @@ Repo: https://github.com/xdatalinq/readme-generator
   Try to break it, then try to fix it
   
   ## Questions
-  For any questions, please send an email to [questions@email.com](mailto:questions@email.com) (not my actual email)
+  For any questions, please send an email to [questions@email.com](mailto:questions@email.com) (this is not actually my email address)
