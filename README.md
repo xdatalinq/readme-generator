@@ -13,7 +13,7 @@
   ## Description
   You can quickly and easily generate a README file by using a command-line application to generate one. This allows the project creator to devote more time working on the project.
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package (Links to an external site.). Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
+Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
 
 Repo: https://github.com/xdatalinq/readme-generator
   ## Installation
