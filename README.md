@@ -15,7 +15,9 @@
 
 Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. Review the Guide to a Professional README (Links to an external site.) as a reminder of everything that a high-quality, professional README should contain.
 
-Repo: https://github.com/xdatalinq/readme-generator
+Repo: https://github.com/xdatalinq/readme-generator <br>
+Walkthrough: https://drive.google.com/file/d/1TnMn2xP2PPYJmvTNhV837H7nBUFA6Gx5/view
+<br></br>
   ## Installation
   Install node, and dependencies
    
