@@ -6,6 +6,7 @@
   * [Installation](#installation)
   * [Repository](#repository)
   * [Walkthrough](#walkthrough)
+  * [Contact](#contact)
   * [License](#license)
 
   ## Description
@@ -15,10 +16,13 @@
   Install node, and dependencies. Run "node index" to launch.
   
   ## Repository
-  Repo: https://github.com/xdatalinq/readme-generator <br>
+  Repo: https://github.com/xdatalinq/readme-generator
   
   ## Walkthrough
   Walkthrough video: https://drive.google.com/file/d/1TnMn2xP2PPYJmvTNhV837H7nBUFA6Gx5/view
+ 
+  ## Contact
+  I can be reached here: [xdatalinq@gmail.com](xdatalinq@gmail.com)
  <br></br>
     
   ## License
