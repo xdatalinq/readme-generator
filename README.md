@@ -10,7 +10,9 @@
   * [License](#license)
 
   ## Description
-  You can quickly and easily generate a README file by using this command-line application. 
+  You can quickly and easily generate a README file by using this command-line application. Built with:
+  * JavaScript
+  * Node.js
   
   ## Installation
   Install node, and dependencies. Run "node index" to launch.
